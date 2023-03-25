@@ -6,9 +6,9 @@ y = input("should the constructed right-triangle be isoceles?(y if yes, leave if
 
 if y == "y":
     turtle.forward(x)
-    turtle.right(135)
+    turtle.left(135)
     turtle.forward(math.sqrt(2)*x)
-    turtle.right(135)
+    turtle.left(135)
     turtle.forward(x)
 
 else:
